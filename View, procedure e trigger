@@ -43,4 +43,10 @@ BEGIN          (
                VALUES(NULL,P_COR)
                COMMIT;
                 )
-$
+                END
+                $
+                
+/*Chamando a procedure*/
+
+DELIMITER;
+CALL CADASTRO('INSERIR OS VALORES');
